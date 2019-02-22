@@ -19,6 +19,16 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
+        <%= video_tag(
+            'city-small.mp4',
+            id: 'background',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            poster: 'city-small.png'
+          )
+          %>
+
     <%= render "shared/application_nav" %>
 
     <%= yield %>

@@ -68,11 +68,4 @@ module ApplicationHelper
   def alert_generator(msg)
     js add_gritter(msg, title: "Hector Arias's Portfolio", sticky: false)
   end
-
-
-
-
-
-
-
 end

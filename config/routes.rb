@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
   get 'angular', to: 'portfolios#angular'
   get 'ruby-on-rails', to: 'portfolios#rails'
+  get 'sports-news', to: 'pages#sports_news'
 
   resources :blogs do
   	member do

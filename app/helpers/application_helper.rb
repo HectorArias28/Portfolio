@@ -38,7 +38,10 @@ module ApplicationHelper
         url: portfolios_path, 
         title: "Portfolio"
       },
-
+      {
+        url: sports_news_path, 
+        title: "Sports News"
+      },
     ]
   end
 
